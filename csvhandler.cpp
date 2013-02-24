@@ -222,6 +222,13 @@ vector<string> CsvHandler::getRow(int num)
 
 }
 
+void CsvHandler::clear()
+{
+    rows=0;
+    cols=0;
+    data.clear();
+}
+
 vector<double> CsvHandler::toDouble(vector<string> csv)
 {
     vector<double> toDoub;
