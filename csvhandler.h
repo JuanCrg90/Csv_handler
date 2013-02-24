@@ -126,6 +126,12 @@ public:
     */
     vector<string> getRow(int num);
 
+
+    /**
+    * @brief Clear the object
+    */
+    void clear();
+
     /**
       * @brief convert to vector<double> a vector<string>
       * @param csv vector of strings
@@ -147,6 +153,8 @@ public:
       * @return vector<int>
       */
     static vector<int> toInt(vector<string> csv);
+
+
 
 
 
