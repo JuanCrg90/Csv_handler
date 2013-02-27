@@ -13,14 +13,14 @@ int main()
 
     data.resize(3);
 
-    for(int i=0;i<data.size();i++)
+    for(unsigned int i=0;i<data.size();i++)
     {
         data[i].resize(3);
     }
 
-    for(int i=0;i<data.size();i++)
+    for(unsigned int i=0;i<data.size();i++)
     {
-        for(int j=0;j<data[i].size();j++)
+        for(unsigned int j=0;j<data[i].size();j++)
         {
             data[i][j]=j;
         }

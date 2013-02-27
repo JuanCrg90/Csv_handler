@@ -45,28 +45,28 @@ public:
 
     /**
     * @brief save vector to file
-    * @param vector< vector<string> > data info to read
+    * @param vector< vector<string> > data info to save
     * @param string file name of file
     */
     void saveCsv(vector< vector<string> > data, string file="out.csv");
 
     /**
     * @brief save vector to file
-    * @param vector< vector<string> > data info to read
+    * @param vector< vector<int> > data info to save
     * @param string file name of file
     */
     void saveCsv(vector< vector<int> > data, string file="out.csv");
 
     /**
     * @brief save vector to file
-    * @param vector< vector<string> > data info to read
+    * @param vector< vector<float> > data info to save
     * @param string file name of file
     */
     void saveCsv(vector< vector<float> > data, string file="out.csv");
 
     /**
     * @brief save vector to file
-    * @param vector< vector<string> > data info to read
+    * @param vector< vector<double> > data info to save
     * @param string file name of file
     */
     void saveCsv(vector< vector<double> > data, string file="out.csv");
